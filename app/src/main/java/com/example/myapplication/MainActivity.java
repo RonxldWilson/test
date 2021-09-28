@@ -18,4 +18,5 @@ public class MainActivity extends AppCompatActivity {
         Toast.makeText(MainActivity.this, "Hello There!", Toast.LENGTH_SHORT).show();
     }
     //Comment
+    //comment2
 }
