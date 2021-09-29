@@ -12,7 +12,7 @@
         android:layout_width="314dp"
         android:layout_height="524dp"
         android:background="#6AAFA9"
-        android:backgroundTint="#F3F3F3"
+        android:backgroundTint="#37BAAE"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
