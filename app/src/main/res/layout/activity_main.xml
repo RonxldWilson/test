@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#000000"
-    android:backgroundTint="#7BC8C1"
+    android:backgroundTint="#E040FB"
     tools:context=".MainActivity">
 
     <LinearLayout
