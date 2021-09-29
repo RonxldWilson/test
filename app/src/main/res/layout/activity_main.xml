@@ -4,11 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#000000"
+    android:backgroundTint="#7BC8C1"
     tools:context=".MainActivity">
 
     <LinearLayout
-        android:layout_width="318dp"
-        android:layout_height="451dp"
+        android:layout_width="314dp"
+        android:layout_height="524dp"
+        android:background="#6AAFA9"
+        android:backgroundTint="#F3F3F3"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -32,6 +36,8 @@
             android:id="@+id/textView2"
             android:layout_width="187dp"
             android:layout_height="119dp"
+            android:background="#AE8B8B"
+            android:backgroundTint="#652828"
             android:text="TextView" />
 
         <Button
@@ -39,6 +45,16 @@
             android:layout_width="match_parent"
             android:layout_height="112dp"
             android:text="Button" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chip4"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chip5"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
