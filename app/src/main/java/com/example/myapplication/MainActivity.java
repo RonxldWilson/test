@@ -17,6 +17,8 @@ public class MainActivity extends AppCompatActivity {
     public void toastThat(View view) {
         Toast.makeText(MainActivity.this, "Hello There!", Toast.LENGTH_SHORT).show();
         Toast.makeText(MainActivity.this, "This is a New Change", Toast.LENGTH_SHORT).show();
+        Toast.makeText(MainActivity.this, "New Branch", Toast.LENGTH_SHORT).show();
+
     }
     //Comment
     //comment2
